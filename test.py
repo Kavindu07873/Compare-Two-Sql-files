@@ -25,6 +25,7 @@ def print_entities(label, entities):
 file1 = 'unicloud_multiple_version-dump-2025-05-29.sql'
 file2 = 'unicloud_ijse_prod_backup_2025-06-11_07-56-00.sql'
 
+
 entities1 = extract_entities(file1)
 entities2 = extract_entities(file2)
 
